@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE:05/03/2025
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME:VANA BHARATH D
+###  ROLL NO :212223040231
+###  DEPARTMENT: BE (CSE)
 
 
 
@@ -86,12 +86,29 @@ The main features of LPC2148 include the following.
 
 
 ## STM 32 CUBE PROGRAM :
+```
+#include "main.h"
+#include "stdio.h"
+int main(void)
+{
+  while (1)
+  {
+    HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0, GPIO_PIN_RESET);
+    HAL_Delay(1000);
+    HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0, GPIO_PIN_SET);
+    HAL_Delay(1000);
+  }
+}
+```
 
 
 
 
 
 ## OUTPUT  :
+ ![419323363-3f6ba13f-40d0-40d3-afdb-d0fe498cc5bc](https://github.com/user-attachments/assets/9febc7a7-3040-418d-b60b-c3caf8cb2de0)
+![419323401-8001bdee-61f2-4925-a896-07378fd2d000](https://github.com/user-attachments/assets/cf17e374-6e0e-499d-8768-544e19c40f00)
+
  
  
  
